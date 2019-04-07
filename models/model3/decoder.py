@@ -1,5 +1,5 @@
 import tensorflow as tf
-from attention import BahdanauAttention
+from attention import Attention
 
 def gru(units):
    return tf.keras.layers.GRU(units,
@@ -19,7 +19,7 @@ class Decoder(tf.keras.Model):
         self.fc = tf.keras.layers.Dense(vocab_size)
         
         # used for attention
-        self.attention = BahdanauAttention(self.dec_units)
+        self.attention = Attention(self.dec_units)
 
     
     def call(self, x, hidden, enc_output):
