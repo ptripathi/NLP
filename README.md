@@ -3,9 +3,18 @@ English - Hindi Neural Machine Translation model experiments using new tensorflo
 
 # Orginazation:
 - models
--- utils.py - shared utility functions
--- score.py - utility module to compute BLEU-4 score on the translation results
--- data_prep.py - utility functions to help data preprocessing
+-- utils.py - shared utility functions  
+
+-- score.py - utility module to compute BLEU-4 score on the translation results  
+
+-- data_prep.py - utility functions to help data preprocessing  
+- model_n folders
+-- model artifacts such as encode, decoder  
+
+-- train: notebook to train the model  
+
+-- test: notbook to test the model  
+
 
 # Process
 
