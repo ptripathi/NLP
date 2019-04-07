@@ -2,18 +2,20 @@
 English - Hindi Neural Machine Translation model experiments using new tensorflow 2.0 (alpha) keras apis.
 
 # Orginazation:
-- models
--- utils.py - shared utility functions  
+- models  
 
--- score.py - utility module to compute BLEU-4 score on the translation results  
+* utils.py - shared utility functions  
 
--- data_prep.py - utility functions to help data preprocessing  
-- model_n folders
--- model artifacts such as encode, decoder  
+* score.py - utility module to compute BLEU-4 score on the translation results  
 
--- train: notebook to train the model  
+* data_prep.py - utility functions to help data preprocessing  
+- model_n folders  
 
--- test: notbook to test the model  
+* model artifacts such as encode, decoder  
+
+* train: notebook to train the model  
+
+* test: notbook to test the model  
 
 
 # Process
