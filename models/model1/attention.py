@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-class BahdanauAttention(tf.keras.Model):
+class Attention(tf.keras.Model):
   def __init__(self, units):
     super(BahdanauAttention, self).__init__()
     self.W1 = tf.keras.layers.Dense(units)
