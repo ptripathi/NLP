@@ -1,5 +1,5 @@
 # About
-English - Hindi Neural Machine Translation model experiments using new tensorflow 2.0 (alpha) keras apis.
+English - Hindi Neural Machine Translation model experiments using tensorflow 2.0 (alpha) apis.
 
 # Orginization:
 ## models  
