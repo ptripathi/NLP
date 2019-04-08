@@ -2,7 +2,7 @@ import tensorflow as tf
 
 class Attention(tf.keras.Model):
   def __init__(self, units):
-    super(BahdanauAttention, self).__init__()
+    super(Attention, self).__init__()
     self.W1 = tf.keras.layers.Dense(units)
     self.W2 = tf.keras.layers.Dense(units)
     self.V = tf.keras.layers.Dense(1)
