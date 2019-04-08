@@ -2,6 +2,9 @@
 English - Hindi Neural Machine Translation model experiments using tensorflow 2.0 (alpha) apis.
 
 # Organization:
+
+* corpus_eda: notebook for exploring corpus characteristic.
+
 ## models  
 
 * utils.py - shared utility functions  
