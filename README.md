@@ -34,6 +34,6 @@ English - Hindi Neural Machine Translation model experiments using new tensorflo
 
 # References
 * Anoop Kunchukuttan, Pratik Mehta, Pushpak Bhattacharyya. The IIT Bombay English-Hindi Parallel Corpus. Language Resources and Evaluation Conference. 2018.
-* Tensorflow Tutorials: https://www.tensorflow.org/tutorials . Some code borrowed from tutorials for fast prototyping.
+* Tensorflow Tutorials: https://www.tensorflow.org/tutorials . Some code borrowed for fast prototyping.
 * GLOVE embedding for English: https://nlp.stanford.edu/projects/glove/
 * Indic NLP library: https://github.com/anoopkunchukuttan/indic_nlp_library
