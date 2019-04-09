@@ -31,7 +31,7 @@ English - Hindi Neural Machine Translation model experiments using tensorflow 2.
 | Model | Data Prep Changes| Model Changes|
 | :---: | :---: | :---: | 
 | Model 1 | lower case'ed, removed special chars, shuffled corpus | standard gru based encode-decoder-attention | 
-| Model 2 | <pad> at position 0 in the word2idx; skipped single word sentences with <uwn> | Used 50 dim Glove enbedding for source, masking 0s | 
+| Model 2 | <pad> at position 0 in the word2idx; skipped single word sentences with `<uwn`> | Used 50 dim Glove enbedding for source, masking 0s | 
 | Model 3 | removed segments with more non-alpha chars than alpha chars | 100 dims glove embedding; Stached encoder-decoder with 2 layers | 
 | Model 4 | normalized nukta chars | reversed source input during training | 
 
